@@ -450,14 +450,14 @@ document.addEventListener('DOMContentLoaded', function() {
     function downloadBrochure() {
         // Create a dummy brochure download
         // In production, replace with actual brochure path
-        const link = document.createElement("a");
-        link.href = ""; // Replace with actual path
-        link.download = "";
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-        // If brochure doesn't exist, show alert
-        console.log('Brochure download initiated');
+        // const link = document.createElement("a");
+        // // link.href = ""; // Replace with actual path
+        // // link.download = "";
+        // document.body.appendChild(link);
+        // link.click();
+        // document.body.removeChild(link);
+        // // If brochure doesn't exist, show alert
+        // console.log('Brochure download initiated');
     }
 });
 
