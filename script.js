@@ -133,7 +133,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const interest = document.getElementById('interest').value;
         const message = document.getElementById('message').value;
 
-        let whatsappMessage = `🏡 *New Inquiry - GoldenCity Township*\n\n`;
+        let whatsappMessage = `🏡 *New Inquiry - HARE KRISHNA Township*\n\n`;
         whatsappMessage += `👤 *Name:* ${name}\n`;
         whatsappMessage += `📱 *Phone:* ${phone}\n`;
         
@@ -149,9 +149,9 @@ document.addEventListener('DOMContentLoaded', function() {
             whatsappMessage += `\n💬 *Message:* ${message}\n`;
         }
 
-        whatsappMessage += `\n✨ *Thank you for your interest in GoldenCity Township!*`;
+        whatsappMessage += `\n✨ *Thank you for your interest in HARE KRISHNA Township!*`;
 
-        const whatsappURL = `https://wa.me/917678379336?text=${encodeURIComponent(whatsappMessage)}`;
+        const whatsappURL = `https://wa.me/918376027972?text=${encodeURIComponent(whatsappMessage)}`;
         
         // Show success animation
         showSubmissionSuccess();
