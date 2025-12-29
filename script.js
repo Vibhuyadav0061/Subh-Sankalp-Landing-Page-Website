@@ -451,8 +451,8 @@ document.addEventListener('DOMContentLoaded', function() {
         // Create a dummy brochure download
         // In production, replace with actual brochure path
         const link = document.createElement("a");
-        link.href = "VibhuResume(4).pdf"; // Replace with actual path
-        link.download = "VibhuResume(4).pdf";
+        link.href = ""; // Replace with actual path
+        link.download = "";
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
